@@ -3,6 +3,7 @@ import './App.css'
 import Header from  './componenten/Header'
 import Counter from './componenten/Counter';
 import InlogStatus from './componenten/Inlogstatus';
+import Navbar from './componenten/Navbar';
 
 function App() {
   const [text, setText] = useState("");
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Header />
+      <Navbar />
       <div>
         <h2>Typ iets:</h2>
         <input 
