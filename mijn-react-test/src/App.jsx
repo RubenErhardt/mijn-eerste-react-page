@@ -4,6 +4,9 @@ import Header from  './componenten/Header'
 import Counter from './componenten/Counter';
 import InlogStatus from './componenten/Inlogstatus';
 import {useEffect} from 'react';
+import Wiki from './componenten/Wiki';
+import ReactMarkdown from 'react-markdown';
+
 
 function App() {
   const [text, setText] = useState("");
@@ -38,6 +41,8 @@ useEffect(() => {
       </div>
       <Counter />
       <InlogStatus />
+      <Wiki />
+      
     </>
   );
 }
